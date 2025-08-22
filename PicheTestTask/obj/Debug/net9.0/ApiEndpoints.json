@@ -1,0 +1,132 @@
+[
+  {
+    "ContainingType": "PicheTestTask.API.Controllers.AccountController",
+    "Method": "CreateAccount",
+    "RelativePath": "Account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ownerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PicheTestTask.API.Controllers.AccountController",
+    "Method": "GetAllAccounts",
+    "RelativePath": "Account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PicheTestTask.Domain.Models.AccountDTO, PicheTestTask, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PicheTestTask.API.Controllers.AccountController",
+    "Method": "GetAccountByNumber",
+    "RelativePath": "Account/{accountNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PicheTestTask.Domain.Models.AccountDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PicheTestTask.API.Controllers.AccountController",
+    "Method": "Deposit",
+    "RelativePath": "Account/{accountNumber}/deposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PicheTestTask.API.Controllers.AccountController",
+    "Method": "Withdraw",
+    "RelativePath": "Account/{accountNumber}/withdraw",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PicheTestTask.API.Controllers.AccountController",
+    "Method": "Transfer",
+    "RelativePath": "Account/transfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

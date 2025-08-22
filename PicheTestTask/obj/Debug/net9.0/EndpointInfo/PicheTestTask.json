@@ -1,0 +1,233 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "TestTask",
+    "version": "v1"
+  },
+  "paths": {
+    "/Account/{accountNumber}": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "accountNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccountDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccountDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccountDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Account": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AccountDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AccountDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AccountDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Account/{accountNumber}/deposit": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "accountNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "amount",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Account/{accountNumber}/withdraw": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "accountNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "amount",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Account/transfer": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "from",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "amount",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AccountDTO": {
+        "type": "object",
+        "properties": {
+          "accountNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "ownerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

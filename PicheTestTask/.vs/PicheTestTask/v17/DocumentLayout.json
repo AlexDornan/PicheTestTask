@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PicheTestTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8963B87-1164-46B1-A2E6-C991C675B5CE}|..\\PicheTestTask.Tests\\PicheTestTask.Tests.csproj|d:\\pichetesttask.tests\\accounttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|d:\\pichetesttask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|d:\\pichetesttask\\application\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|solutionrelative:application\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|d:\\pichetesttask\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|solutionrelative:data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|d:\\pichetesttask\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|d:\\pichetesttask\\domain\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|solutionrelative:domain\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|d:\\pichetesttask\\application\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD49A06-6042-4BED-A9A1-2C3AA7D8F6F7}|PicheTestTask.csproj|solutionrelative:application\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountTest.cs",
+              "DocumentMoniker": "D:\\PicheTestTask.Tests\\AccountTest.cs",
+              "RelativeDocumentMoniker": "..\\PicheTestTask.Tests\\AccountTest.cs",
+              "ToolTip": "D:\\PicheTestTask.Tests\\AccountTest.cs",
+              "RelativeToolTip": "..\\PicheTestTask.Tests\\AccountTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T20:06:25.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountDTO.cs",
+              "DocumentMoniker": "D:\\PicheTestTask\\Application\\DTOs\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AccountDTO.cs",
+              "ToolTip": "D:\\PicheTestTask\\Application\\DTOs\\AccountDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\AccountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T14:44:04.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\PicheTestTask\\Application\\AccountService.cs",
+              "RelativeDocumentMoniker": "Application\\AccountService.cs",
+              "ToolTip": "D:\\PicheTestTask\\Application\\AccountService.cs",
+              "RelativeToolTip": "Application\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:53:17.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\PicheTestTask\\API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\PicheTestTask\\API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:48:10.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PicheTestTask\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\PicheTestTask\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:04:15.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\PicheTestTask\\Data\\Context.cs",
+              "RelativeDocumentMoniker": "Data\\Context.cs",
+              "ToolTip": "D:\\PicheTestTask\\Data\\Context.cs",
+              "RelativeToolTip": "Data\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:16:20.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\PicheTestTask\\Domain\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Account.cs",
+              "ToolTip": "D:\\PicheTestTask\\Domain\\Models\\Account.cs",
+              "RelativeToolTip": "Domain\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T10:40:01.652Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
