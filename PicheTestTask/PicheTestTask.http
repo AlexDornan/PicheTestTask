@@ -1,0 +1,6 @@
+@PicheTestTask_HostAddress = http://localhost:5236
+
+GET {{PicheTestTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
